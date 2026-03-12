@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
-  <title>Exercise 6: Banh Mi, menus, and layout</title>
   <meta charset="utf-8">
-  <!--Created by Ethney on March 5 2026-->
+  <title>Exercise 6: Banh Mi, menus, and layout</title>
+  <!--Created by Ethney on March 11 2026-->
 
   <!-- This is embed code for Google fonts, take a look at  https://fonts.google.com/ for more info, you can just pick fonts and get an embed code which you use here. See how I am controlling them from <style> most of the CSS is just pasted in from Google and I have made tweaks to the weights and added other bits. This is what we will learn next week.-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,24 +12,29 @@
   <style>
 
     body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    font-size: 16px;
-    width: 960px;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+      font-size: 16px;
+      width: 960px;
+      background-color: #faf6f0;
     }
 
     h1 {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      text-align: center;
     }
 
     #site-title {
+      font-size: 50px;
+      color: white;
+      background-color: #bd7426;
+      padding: 20px;
     }
 
     nav {
@@ -38,6 +43,8 @@
       font-weight: 400;
       font-style: normal;
       text-align: center;
+      padding: 0px 0px 25px;
+      border-bottom: 1px solid black;
     }
   
     nav ul {
@@ -49,12 +56,17 @@
     }
     
     nav li {
-       display: inline;
-      padding: 0px 16px;
+      display: inline;
+      padding: 0px 20px;
     }
     
     nav a {
       text-decoration: none;
+      color: black;
+    }
+    
+    nav a:hover {
+      color: #e3446c;
     }
 
     .container {
@@ -64,7 +76,7 @@
     }
 
     .container div {
-      background-color: red;
+      background-color: white;
       color: #000;
       padding: 0px;
       margin: 12px;
@@ -84,6 +96,8 @@
     footer {
       text-align: center;
       padding: 25px;
+      background-color: #bd7426;
+      color: white;
     }
     
     img {
